@@ -32,3 +32,19 @@ themeToggle.innerText="🌙";
 });
 
 
+const dateSpan = document.getElementById("dateSpan");
+const timeSpan = document.getElementById("timeSpan");
+
+function updateClock() {
+  const now = new Date();
+
+  dateSpan.innerText = now.toDateString();
+  timeSpan.innerText = now.toLocaleTimeString();
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+function showNavbar(){
+          const toggleMenu=document.getElementById("togglenavbar");
+         toggleMenu.classList.toggle("active");
+}
