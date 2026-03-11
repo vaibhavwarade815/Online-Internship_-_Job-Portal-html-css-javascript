@@ -216,3 +216,29 @@ function closeDetails(){
 document.getElementById("jobDetails").style.display="none"
 
 }
+
+/* CONTACT */
+
+function sendMessage(){
+
+let name=document.getElementById("name").value
+let email=document.getElementById("email").value
+let message=document.getElementById("message").value
+
+if(name=="" || email=="" || message==""){
+
+alert("Please fill all fields")
+
+}else{
+
+alert("Message Sent Successfully!")
+
+document.getElementById("name").value=""
+document.getElementById("email").value=""
+document.getElementById("message").value=""
+
+}
+
+}
+
+
