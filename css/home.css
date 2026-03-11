@@ -1,0 +1,17 @@
+/* GLOBAL */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f6f9;
+color: black;
+transition: 0.3s;
+overflow-x: hidden;
+margin: 0;
+padding: 0;
+}
