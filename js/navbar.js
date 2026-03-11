@@ -32,6 +32,7 @@ themeToggle.innerText="🌙";
 });
 
 
+
 const dateSpan = document.getElementById("dateSpan");
 const timeSpan = document.getElementById("timeSpan");
 
