@@ -52,7 +52,12 @@ width: 100%;
   color: yellow
 }
 
-
+.active {
+  background-color: #f1c40f;
+  color: black !important;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
 
 .nav-clock {
   display: flex;
